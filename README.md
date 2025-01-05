@@ -12,4 +12,5 @@ If you are interested in more details on the underlying architecture of the mode
 ## Evaluation
 For evaluating the DETR model on the NABirds dataset, we are comparing the predicted bounding box of the model with the target bounding box as labeled in the dataset.  
 The comparison is done by calculating the Intersection over Union (IoU):  
-$iou = \frac{area-of-overlap}{area-of-union}$
+
+$$IoU = \frac{\text{Area of Overlap}}{\text{Area of Union}}$$
