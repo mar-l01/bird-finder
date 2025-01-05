@@ -16,9 +16,10 @@ The comparison is done by calculating the Intersection over Union (IoU):
 $$IoU = \frac{\text{Area of Overlap}}{\text{Area of Union}}$$
 
 ### Evaluation of 1000 images
-We let the model predict the location of birds in 1000 images. Below, the distribution of the computed IoU is shown.
+We let the model predict the location of birds in 1000 images. Below, the distribution of the computed IoU is shown.  
+Note that during this evaluation, the model did not infere a bounding box for 23 images.
 
-![diagram_distribution_iou_1000](https://github.com/user-attachments/assets/b4c3a9fd-b55e-411b-8449-7103637bd91d)
+![distribution_1000imgs](https://github.com/user-attachments/assets/04eb6566-5d4d-41c1-9747-c7e7ad8d8320)
 
  Instead of using the actual IoU value, we classify the quality of a prediction as follows:  
 - excellent: IoU == 1
