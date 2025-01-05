@@ -29,7 +29,7 @@ We let the model predict the location of birds in 1000 images. Below, the distri
 - poor: IoU <= 0.5
 
 ### Examples
-Below, an example for each quality category as described above is listed:
+Below, an example for each quality category as described above is listed. The green rectangle shows the predicted bounding box, the blue rectangle the target bounding box.
 <p>
     <img width=200 src=https://github.com/user-attachments/assets/fc15b410-9d33-48e6-949e-f5f964460acf></img>
     <img width=200 src=https://github.com/user-attachments/assets/4704790d-80cf-4f2f-9ff0-711f081329ec></img>
