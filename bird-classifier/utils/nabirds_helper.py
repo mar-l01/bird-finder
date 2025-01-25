@@ -19,7 +19,7 @@ class NABirdsHelper:
 
     def _check_nabirds_directory(self):
         """
-        Check if all important parts of the 'NABirds' dataset a present in the provided directory.
+        Check if all important parts of the 'NABirds' dataset are present in the provided directory.
         """
         # check if required content directories / files exist
         if self._nabirds_dir.is_dir():
